@@ -1,5 +1,6 @@
 :root {
    --white: #ffffff;
+   --off-white: #e5e5e5;
    --yellow: #f5ca48;
    --purple: #8049ad;
    --light-purple: #a583c9;
@@ -30,6 +31,17 @@
 .flex-justify-end {
    justify-content: flex-end;
 }
+.grid {
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto auto;
+   /* align-items: center;
+   justify-content: center; */
+   gap: 16px;
+}
+/* .grid-column {
+   flex-direction: column;
+} */
 
 h2,
 h3,
@@ -40,6 +52,7 @@ h6 {
 }
 ul {
    list-style-type: none;
+   cursor: pointer;
 }
 .btn {
    background-color: var(--yellow);
@@ -104,4 +117,11 @@ ul {
 }
 .center-text {
    text-align: center;
+}
+.off-white {
+   background-color: var(--off-white);
+}
+
+.margin-top-one {
+   margin-top: 1rem;
 }
