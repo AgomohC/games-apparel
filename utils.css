@@ -27,6 +27,9 @@
 .flex-column {
    flex-direction: column;
 }
+.flex-justify-end {
+   justify-content: flex-end;
+}
 
 h2,
 h3,
@@ -98,4 +101,7 @@ ul {
 }
 .vanta-text {
    color: var(--vanta-black);
+}
+.center-text {
+   text-align: center;
 }

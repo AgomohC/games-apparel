@@ -2,6 +2,11 @@ body {
    position: relative;
    font-size: 18px;
 }
+header {
+   position: relative;
+   background: transparent;
+   z-index: 2;
+}
 #navbar {
    padding: 28px 102px;
 }
@@ -14,4 +19,36 @@ nav > ul {
 }
 nav > button {
    flex: 1;
+}
+
+#hero-section {
+   height: 100vh;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-image: url(./assets/hero-desktop.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   z-index: 1;
+}
+#hero-section > div {
+   height: 100%;
+   gap: 1rem;
+   padding-bottom: 68px;
+}
+
+#hero-section > div > h3 {
+   font-size: 60px;
+   font-weight: 400;
+}
+#hero-section > div > h2 {
+   width: 658px;
+   font-weight: 500;
+   font-size: 100px;
+}
+#hero-section > div > p {
+   width: 417px;
+   font-weight: 400;
 }
