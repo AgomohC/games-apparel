@@ -79,6 +79,8 @@ ul {
 }
 .card-small {
    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+   width: 290px;
+   height: 290px;
 }
 
 .card-big {
@@ -96,6 +98,7 @@ ul {
    height: 80px;
    border-radius: 50%;
    background-color: var(--lightest-purple);
+   /* display: block; */
 }
 .white-text {
    color: var(--white);

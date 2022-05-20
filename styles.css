@@ -1,6 +1,6 @@
 body {
    position: relative;
-   font-size: 18px;
+   font-size: 16px;
 }
 header {
    position: relative;
@@ -70,4 +70,27 @@ nav > ul {
    font-weight: 400;
    font-size: 16px;
    line-height: 24px;
+}
+#perks-section {
+   position: absolute;
+   top: calc(100vh + 736px);
+   left: 0;
+   padding: 50px 100px;
+   width: 100%;
+   gap: 100px;
+}
+#perks-section article {
+   padding: 45px 24px;
+   gap: 16px;
+}
+#perks-section h5 {
+   font-weight: 500;
+   font-size: 30px;
+   font-style: normal;
+   line-height: 2rem;
+}
+#perks-section p {
+   font-style: normal;
+   font-weight: 500;
+   /* line-height: 22px; */
 }
