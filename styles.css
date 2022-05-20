@@ -2,56 +2,48 @@ body {
    position: relative;
    font-size: 16px;
 }
-header {
-   position: relative;
+#header {
    background: transparent;
-   z-index: 2;
+   height: 100%;
+   min-height: 100vh;
+   width: 100%;
+   background-image: url(./assets/hero-desktop.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 #navbar {
    padding: 28px 102px;
 }
 h1 {
    font-size: 24px;
-   flex: 1;
+   flex: 1.5;
 }
-nav > ul {
+#navbar > ul {
    flex: 4;
 }
 
-#hero-section {
-   /* min-height: 100vh; */
-   height: 100vh;
-   width: 100%;
-   position: absolute;
-   top: 0;
-   left: 0;
-   background-image: url(./assets/hero-desktop.jpg);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   z-index: 1;
-}
-#hero-section > div {
+#header > div {
    height: 100%;
    gap: 1rem;
    padding-bottom: 68px;
 }
 
-#hero-section > div > h3 {
+#header > div > h3 {
    font-size: 60px;
    font-weight: 400;
 }
-#hero-section > div > h2 {
+#header > div > h2 {
    width: 658px;
    font-weight: 500;
    font-size: 100px;
 }
-#hero-section > div > p {
+#header > div > p {
    width: 417px;
    font-weight: 400;
 }
 #info-section {
-   position: absolute;
+   /* position: absolute; */
    top: 100vh;
    left: 0;
    padding: 100px;
