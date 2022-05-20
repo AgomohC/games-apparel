@@ -4,8 +4,8 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="./styles.css" />
       <link rel="stylesheet" href="./utils.css" />
+      <link rel="stylesheet" href="./styles.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,7 +39,7 @@
          </div>
       </header>
       <main>
-         <section id="info-section" class="flex off-white">
+         <section id="info-section" class="flex">
             <article class="grid">
                <img src="./assets/ps5.jpg" alt="ps5 console" />
                <img src="./assets/xbox-one.jpg" alt="xbox one console" />
@@ -56,10 +56,8 @@
                <button class="btn btn-outline margin-top-one">Shop Now</button>
             </article>
          </section>
-         <section id="perks-section" class="flex off-white">
-            <article
-               class="card card-small off-white flex center-text flex-column"
-            >
+         <section id="perks-section" class="flex">
+            <article class="card card-small flex center-text flex-column">
                <span class="chip-rounded flex">
                   <img
                      src="./assets/express-delivery 1.jpg"
@@ -71,9 +69,7 @@
                   >Free shipping for all our products above N100k</p
                >
             </article>
-            <article
-               class="card card-small off-white flex center-text flex-column"
-            >
+            <article class="card card-small flex center-text flex-column">
                <span class="chip-rounded flex">
                   <img src="./assets/return 1.jpg" alt="return" />
                </span>
@@ -82,9 +78,7 @@
                   >7 days return policy for all products that isn't damaged</p
                >
             </article>
-            <article
-               class="card card-small off-white flex center-text flex-column"
-            >
+            <article class="card card-small flex center-text flex-column">
                <span class="chip-rounded flex">
                   <img src="./assets/support 1.jpg" alt="customer support" />
                </span>
@@ -94,7 +88,34 @@
                </p>
             </article>
          </section>
-         <section></section>
+         <section id="store-section">
+            <div>
+               <div class="flex store-head">
+                  <h5 class="vanta-text">Store</h5>
+                  <p class="purple-text">View All</p>
+               </div>
+               <div class="flex cards">
+                  <article class="card-big">
+                     <div class="card-img">
+                        <img
+                           src="./assets/ps5-controller.png"
+                           alt="ps5 controller"
+                        />
+                     </div>
+                     <div class="card-body">
+                        <div class="flex card-title">
+                           <h5> PS5 Controller </h5>
+                           <p class="purple-text center-text">N40 000</p>
+                        </div>
+                        <div class="flex grey-text card-info">
+                           <p>Sony</p>
+                           <button class="btn btn-round">+</button>
+                        </div>
+                     </div>
+                  </article>
+               </div>
+            </div>
+         </section>
       </main>
       <footer>
          <section></section>

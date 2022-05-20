@@ -43,9 +43,6 @@ h1 {
    font-weight: 400;
 }
 #info-section {
-   /* position: absolute; */
-   top: 100vh;
-   left: 0;
    padding: 100px;
    gap: 100px;
 }
@@ -64,10 +61,7 @@ h1 {
    line-height: 24px;
 }
 #perks-section {
-   position: absolute;
-   top: calc(100vh + 736px);
-   left: 0;
-   padding: 50px 100px;
+   padding: 50px 140px;
    width: 100%;
    gap: 100px;
 }
@@ -84,5 +78,58 @@ h1 {
 #perks-section p {
    font-style: normal;
    font-weight: 500;
-   /* line-height: 22px; */
+}
+#store-section {
+   padding: 50px 100px;
+   width: 100%;
+   gap: 100px;
+}
+.store-head {
+   justify-content: space-between;
+   margin-bottom: 40px;
+}
+.store-head > h5 {
+   font-size: 45px;
+   font-weight: 500;
+}
+.store-head > p {
+   font-weight: 600;
+   font-size: 24px;
+}
+.cards {
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+.card-img {
+   width: 290px;
+   height: 290px;
+}
+.card-img > img {
+   height: auto;
+   width: 100%;
+}
+.card-body {
+   padding: 20px;
+}
+.card-title {
+   justify-content: space-between;
+}
+.card-title h5 {
+   font-size: 24px;
+   font-weight: 500;
+}
+.card-title p {
+   font-weight: 600;
+}
+.card-info {
+   justify-content: space-between;
+   align-items: flex-start;
+   margin-top: 0.5rem;
+}
+.card-info p {
+   font-size: 14px;
+   font-weight: 400;
+}
+.card-info .btn {
+   margin-top: 7px;
 }
