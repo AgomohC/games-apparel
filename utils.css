@@ -140,7 +140,10 @@ ul {
 .vanta-text {
    color: var(--vanta-black);
 }
-
+.strike-through {
+   text-decoration: line-through;
+   margin-left: 1rem;
+}
 /* Alignment */
 .center-text {
    text-align: center;
