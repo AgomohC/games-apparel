@@ -144,6 +144,9 @@ ul {
    text-decoration: line-through;
    margin-left: 1rem;
 }
+.underline {
+   text-decoration: underline;
+}
 /* Alignment */
 .center-text {
    text-align: center;

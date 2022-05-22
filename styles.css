@@ -217,3 +217,50 @@ h1 {
    font-size: 30px;
    font-weight: 500;
 }
+#footer {
+   height: auto;
+   width: 100%;
+   padding: 50px 100px;
+   margin-top: 100px;
+   border-top: 6px solid rgba(79, 79, 79, 0.04);
+}
+
+#footer > section > .contact {
+   flex: 1;
+   align-items: flex-start;
+   gap: 20px;
+}
+#footer > section > .contact > .purple-text {
+   margin-bottom: 4px;
+   font-size: 24px;
+   font-weight: 600;
+}
+#footer > section > .contact > .details {
+   font-size: 18px;
+   font-weight: 600;
+   gap: 10px;
+   justify-content: flex-start;
+   /* align-items: ; */
+}
+
+#footer > section > .contact > .details > span {
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+}
+#footer > section > .links {
+   flex: 1;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 80px;
+}
+#footer > section > .links h6 {
+   font-size: 18px;
+   font-weight: 600;
+   font-family: inherit;
+   margin-bottom: 24px;
+}
+#footer > section > .links p {
+   font-size: 18px;
+   font-weight: 400;
+   margin-bottom: 16px;
+}
